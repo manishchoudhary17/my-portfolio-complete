@@ -1,0 +1,75 @@
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.header {
+    background-color: rgba(30, 105, 155, 0.486);
+    display:flex;
+    justify-content: space-between;
+    border:solid;
+}
+
+.menu a{
+    padding: 10px;
+}
+
+.menu {
+    padding-top: 20;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display:flex;
+    justify-content: flex-end;
+}
+
+p {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(128,128,128);
+}
+
+a:link {
+    color: rgba(16, 111, 219, 0.904);
+}
+
+a:visited {
+    color: rgb(43, 212, 10);
+}
+
+.item {
+    position: relative;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.5;
+}
